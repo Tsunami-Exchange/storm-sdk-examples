@@ -1,0 +1,34 @@
+{
+  "name": "storm-sdk-examples",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "increase-position": "ts-node ./examples/increase-position.ts",
+    "market": "ts-node ./examples/market.ts",
+    "add-margin": "ts-node ./examples/add-margin.ts",
+    "close-position": "ts-node ./examples/close-position.ts",
+    "create-limit-order": "ts-node ./examples/create-limit-order.ts",
+    "create-tp-sl-order": "ts-node ./examples/create-tp-sl-order.ts",
+    "position-manager": "ts-node ./examples/position-manager.ts",
+    "remove-margin": "ts-node ./examples/remove-margin.ts",
+    "send-with-mnemonic": "ts-node ./examples/send-with-mnemonic.ts",
+    "sync-methods": "ts-node ./examples/sync-methods.ts",
+    "ton-connect": "ts-node ./examples/ton-connect.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@storm-trade/sdk": "^0.3.7",
+    "@ton/core": "^0.53.0",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "^13.9.0",
+    "@tonconnect/sdk": "^3.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
